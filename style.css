@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    font-size: 25px;
+}
+
+header{
+    background-color: blueviolet;
+    padding: 15px;
+    color: white;
+    min-height: 80vh;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px; 
+}
+
+.links a{
+color: white;
+text-decoration: none;
+margin-right: 10px;
+}
+
+.contact{
+    background-color: white;
+    color: blueviolet;
+    padding: 16px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.contact:hover{
+    opacity: 0.8;
+
+}
+
+.main{
+  padding: 0 20%;
+    
+}
+
+.title{
+    font-size: 2.5em;
+    padding: 20px 0;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.aboutMe p{
+    width: 50%;
+}
+
+
+#blog{
+    padding: 2% 20%;
+
+}
+
+#blog h1{
+    font-size: 3em;
+    padding: 50px 0;
+}
+
+#blog div{
+
+    margin-top: 30px;
+}
+
+#education{
+    background-color: lightgray;
+    padding: 50px 20%;
+    color: black;
+    min-height: 50vh; 
+}
+
+
+#education h1{
+    font-size: 3em;
+    margin: 50px 0 ; 
+}
+
+.edus{
+
+    margin: 30px 0;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 50px 20%;
+    min-height: 8vh; 
+    color: white;
+    text-align: center;
+}
